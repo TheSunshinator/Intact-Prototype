@@ -1,0 +1,34 @@
+{
+	"data": [
+        {
+			"uid": "BAG01",
+			"name": "Carrier Bag",
+			"short": "Navi Blue and Brown Soft Leather",
+			"long": "Our Mountain Briefcase is the ultimate shape changing, go to work, bring around town, travel the world, do it all everyday carry",
+			"price": 250,
+			"thumbnail": "data_carrier",
+			"size": "H: 36cm/14\"\nW: 38cm/15\"\nD: 20cm/8\"",
+			"colors": [4280035643, 4289486657]
+		},
+		{
+			"uid": "BAG02",
+			"name": "Travel",
+			"short": "Soft Leather bag",
+			"long": "Perfect for pairing with the matching luggage, this travel tote displays a logo-embossed design and allover shine",
+			"price": 175,
+			"thumbnail": "data_travel",
+			"size": "H: 38cm/15\"\nW: 20cm/8\"\nD: 36cm/14\"",
+			"colors": []
+		},
+		{
+			"uid": "BAG03",
+			"name": "Urbanito",
+			"short": "Biker basics",
+			"long": "This is a waterproof streamlined Top-loading cycling laptop backpack with a quick access to all of your gear",
+			"price": 75,
+			"thumbnail": "data_urbanito",
+			"size": "H: 20cm/8\"\nW: 36cm/14\"\nD: 38cm/15\"",
+			"colors": [4280035643, 4291609600, 4294941952]
+		}
+	]
+}

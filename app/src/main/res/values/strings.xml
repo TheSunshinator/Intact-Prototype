@@ -1,0 +1,22 @@
+<resources>
+  <string name = "app_name">Tasch</string>
+
+  <string name = "header_catalog" >Product catalog</string>
+  <string name = "header_wishlist">Your wish list</string>
+
+  <string name = "label_subtotal">Sub-total</string>
+  <string name = "label_colors"  >Colors</string>
+  <string name = "label_rating"  >Rate the product</string>
+  <string name = "label_size"    >Size</string>
+
+  <string name = "message_checkout">Are you sure you want to proceed to checkout?</string>
+  <string name = "message_shipping">Free Shipping World Wide</string>
+  <string name = "message_stock"   >Out of stock</string>
+  <string name = "message_total"   >Total $%d</string>
+
+  <string name = "btn_affirmative"    >Yes</string>
+  <string name = "btn_checkout"       >Proceed to check out</string>
+  <string name = "btn_negative"       >No</string>
+  <string name = "btn_wishlist_add"   >Add to wish list</string>
+  <string name = "btn_wishlist_remove">Remove from wish list</string>
+</resources>

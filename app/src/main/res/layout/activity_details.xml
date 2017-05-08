@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+              xmlns:tools = "http://schemas.android.com/tools"
+              android:layout_width = "match_parent"
+              android:layout_height = "match_parent"
+              android:orientation = "vertical"
+              tools:context = "com.sunshinator.intactprototype.Details">
+
+  <include layout = "@layout/bar_details"/>
+
+  <ScrollView
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:background = "@color/bg_catalog">
+
+    <LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:orientation = "vertical">
+
+      <ImageView
+        android:id = "@+id/thumbnail"
+        android:layout_width = "match_parent"
+        android:layout_height = "@dimen/height_thumbnail"
+        android:paddingBottom = "48dp"
+        android:background = "@color/bg_thumbnail"/>
+
+      <include
+        layout = "@layout/component_item_info"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "-48dp"
+        android:layout_marginStart = "@dimen/margin_details"
+        android:layout_marginEnd = "@dimen/margin_details"/>
+
+      <include
+        layout = "@layout/component_rating"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginStart = "@dimen/margin_details"
+        android:layout_marginEnd = "@dimen/margin_details"/>
+
+      <TextView
+        android:id = "@+id/wishlist"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop = "@dimen/margin_default"
+        android:layout_marginBottom = "@dimen/margin_default"
+        android:layout_marginStart = "@dimen/margin_btn"
+        android:layout_marginEnd = "@dimen/margin_btn"
+        android:padding = "@dimen/padding_btn"
+        android:background = "@drawable/bg_btn_do"
+        android:gravity = "center"
+        android:onClick = "onWishlistTriggered"
+        android:textColor = "@color/text_btn_do"/>
+    </LinearLayout>
+
+  </ScrollView>
+</LinearLayout>

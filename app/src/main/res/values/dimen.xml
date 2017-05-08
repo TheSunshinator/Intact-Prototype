@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name = "margin_root"   >8dp</dimen>
+  <dimen name = "margin_default">4dp</dimen>
+  <dimen name = "margin_item"   >2dp</dimen>
+  <dimen name = "margin_details">8dp</dimen>
+  <dimen name = "margin_btn"    >32dp</dimen>
+
+  <dimen name = "padding_btn">8dp</dimen>
+
+  <dimen name = "height_color"       >32dp</dimen>
+  <dimen name = "height_item_catalog">128dp</dimen>
+  <dimen name = "height_thumbnail"   >256dp</dimen>
+
+  <dimen name = "width_color"       >32dp</dimen>
+  <dimen name = "width_item_catalog">128dp</dimen>
+  <dimen name = "width_thumbnail"   >96dp</dimen>
+
+  <dimen name = "radius_item">4dp</dimen>
+  <dimen name = "radius_btn" >4dp</dimen>
+
+  <dimen name = "text_bar"          >28sp</dimen>
+  <dimen name = "text_subtotal"     >20sp</dimen>
+  <dimen name = "text_price"        >20sp</dimen>
+  <dimen name = "text_price_details">28sp</dimen>
+
+  <dimen name = "elevation_item">2dp</dimen>
+
+</resources>

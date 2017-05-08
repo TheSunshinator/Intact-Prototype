@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+                xmlns:app = "http://schemas.android.com/apk/res-auto"
+                xmlns:tools = "http://schemas.android.com/tools"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:padding = "@dimen/margin_default"
+                android:background = "@color/bg_wishlist">
+
+  <TextView
+    android:id = "@+id/header"
+    android:textStyle = "bold"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:layout_margin = "@dimen/margin_default"
+    android:gravity = "bottom"
+    android:text = "@string/header_wishlist"/>
+
+  <TextView
+    android:id = "@+id/total"
+    android:layout_width = "0dp"
+    android:layout_height = "0dp"
+    android:layout_alignBottom = "@+id/header"
+    android:layout_alignParentEnd = "true"
+    android:layout_alignTop = "@+id/header"
+    android:layout_toEndOf = "@+id/header"
+    android:gravity = "bottom|end"/>
+
+  <android.support.v7.widget.RecyclerView
+    android:id = "@+id/wish_list"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:layout_below = "@+id/header"
+    app:layoutManager = "android.support.v7.widget.LinearLayoutManager"
+    tools:listitem = "@layout/item_wishlist"/>
+
+  <include
+    android:id = "@+id/layout_subtotal"
+    layout = "@layout/component_wishlist_subtotal"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:layout_below = "@+id/wish_list"/>
+
+  <TextView
+    android:id = "@+id/checkout"
+    android:layout_width = "wrap_content"
+    android:layout_height = "wrap_content"
+    android:layout_marginTop = "@dimen/margin_default"
+    android:layout_marginBottom = "@dimen/margin_root"
+    android:layout_marginStart = "@dimen/margin_default"
+    android:layout_marginEnd = "@dimen/margin_default"
+    android:layout_below = "@+id/layout_subtotal"
+    android:layout_centerHorizontal = "true"
+    android:padding = "@dimen/padding_btn"
+    android:background = "@drawable/bg_btn_do"
+    android:onClick = "onCheckout"
+    android:text = "@string/btn_checkout"
+    android:textColor = "@color/text_btn_do"/>
+</RelativeLayout>
